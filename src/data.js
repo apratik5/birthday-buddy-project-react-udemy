@@ -1,9 +1,10 @@
+
 export default [
   {
     id: 1,
-    name: 'Bertie Yates',
-    age: 29,
-    image: 'https://www.course-api.com/images/people/person-1.jpeg',
+    name: 'Anuska Dash',
+    age: 20,
+    image: './src/assets/picture-1.jpg',
   },
   {
     id: 2,

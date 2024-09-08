@@ -1,19 +1,19 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import People from "./People";
-import Data from './data.js';
+import data from './data.js';
 
 const App = () => {
-  const [data, setData] = useState(Data);
+  const [person, setPerson] = useState(data);
 
   return <main>
     <section className="container">
-      <h3>{data.length} Birthdays Today</h3>;
+      <h3>{person.length} Birthdays Today</h3>
       {
-        data.map((val) => {
+        person.map((val) => {
           return <People {...val} key={val.id}></People>
         })
       }
-      <button type="button" className="btn btn-block" onClick={() => setData([])}>Clear All</button>
+      <button type="button" className="btn btn-block" onClick={() => setPerson([])}>Clear All</button>
     </section>
 
 
