@@ -2,9 +2,9 @@
 export default [
   {
     id: 1,
-    name: 'Anuska Dash',
+    name: 'Mark',
     age: 20,
-    image: './src/assets/picture-1.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/71/20231006_Mark_%28NCT%29.jpg',
   },
   {
     id: 2,
